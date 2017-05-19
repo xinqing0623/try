@@ -1,0 +1,71 @@
+@media(max-width:1023px){
+	.body_fixed{ overflow-y:hidden; right:90%!important;}
+	.header_fixed{ right:90%!important;}
+	.nav1_position{ left:10%!important;}
+	.ul_opacity{ opacity:1!important; -webkit-transition-delay:1s!important; transition-delay:1s!important;}
+	.menu_button_click{ background-position:right!important;}
+	.header .bar .menu_button{ display:block!important;}
+	.header .nav1 li .nav1_a{ font-size:16px;}
+	.header .nav2{ display:none!important;}
+	.header .nav1{ position:fixed; z-index:98; left:100%; top:0; width:90%; height:100%; -moz-transition:all .5s linear; -webkit-transition:all .5s linear; -ms-transition:all .5s linear; -o-transition:all .5s linear; transition:all .5s linear; -webkit-transition-delay:.5s; transition-delay:.5s; -webkit-box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); -moz-box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); display:table;}
+	.header .nav1 .wrap{ display:table-cell; vertical-align:middle;}
+	.header .nav1 ul{ display:inline-block; opacity:0; -moz-transition:all .3s; -webkit-transition:all .3s; -ms-transition:all .3s; -o-transition:all .3s; transition:all .3s; -webkit-transition-delay:0s; transition-delay:0s;}
+	.header .nav1 .nav1_li{	padding:0.2em 0 0 0;}
+	.header .nav1 li .nav1_a{ font-size:16px;}
+	.main{ padding-top:100px;}
+	.main .content .news_list{ width:auto; margin:2%; float:none;}
+	.main .content .news_list:last-child{ margin-bottom:0;}
+	.footer{ font-size:14px; padding:0;}
+	.footer .footer_wrap .footer_left ul li{ display:block;}
+}
+@media(min-width:1024px){
+	.header .bar .menu_button{ display:none!important;}
+	.header .nav1 li .nav1_a{ font-size:14px;}
+	.header .nav2 .list .list_title{ font-size:25px;}
+	.header .nav1 ul{ display:inline-block;}
+	.header .nav1 .nav1_li{ float:left;	padding:0.2em 0.5em 0 0;}
+	.main{ padding-top:144px; padding-bottom:40px;}
+	.footer{ position:fixed; z-index:2; bottom:0;}
+	.footer .footer_wrap .footer_left{ float:left;}
+	.footer .footer_wrap .footer_right{ float:right;}
+	.footer .footer_wrap .footer_left ul li:first-child{ display:none;}
+	.footer .footer_wrap .footer_left ul li:after{ content:""; position:absolute; top:12px; width:1px; height:18px; background:#2d3e4e; margin-left:-15px;}
+	.footer .footer_wrap .footer_left ul li:nth-child(2):after{ content:""; width:0;}
+
+}
+@media(min-width:1024px) and (max-width:1199px){ 
+	.header .nav1 li .nav1_a{ font-size:12px;}
+	.header .nav2 .list .list_title{ font-size:22px;}
+}
+@media(max-width:767px){   
+	.main .banner .banner_view .banner_view_bg .desktop{ display:none;}
+	.main .banner .banner_view .banner_view_text_wrap{ display:table; width:100%; padding:3% 50px;}
+	.main .banner .banner_view .banner_view_text{ display:table-cell; vertical-align:middle; min-height:138px; width:100%;}
+	.main .banner .banner_index{ height:0;}
+	.main .banner .prev_next_box span{ bottom:180px;}
+}
+@media(min-width:768px){
+	.main .banner .banner_view .banner_view_bg .mobile{ display:none;}
+	.main .banner .banner_view .banner_view_text{ position:absolute; top:40%; width:100%; text-align:left;}
+	.main .banner .banner_view .banner_view_text span{ display:inline-block; text-align:center;}
+	.main .banner .banner_view .view_1 .banner_view_text{ left:25%;}
+	.main .banner .banner_view .view_1 .banner_view_text span{ width:25%;}
+	.main .banner .banner_view .view_2 .banner_view_text{ left:50%;}
+	.main .banner .banner_view .view_2 .banner_view_text span{ width:25%;}
+	.main .banner .banner_view .view_3 .banner_view_text{ left:25%;}
+	.main .banner .banner_view .view_3 .banner_view_text span{ width:220px; color:#575e6b;}
+	.main .banner .banner_view .banner_view_text div{ width:25%; text-align:center;}
+	.main .banner .banner_view .view_3 .banner_view_text div a{ color:#575e6b;}
+	.main .banner .banner_view .view_3 .banner_view_text div{ width:220px;}
+	.main .banner .prev_next_box span{ top:40%;}	
+	.main .banner .banner_other{ display:none;}
+}
+@media(min-width:768px) and (max-width:1023px){ 
+	.main .banner .banner_view .banner_view_bg .desktop{ height:432px!important;}
+}
+@media(min-width:1441px){
+	.main .banner .banner_view .view_3 .banner_view_text{ left:30%;}
+}
+@media(min-width:1371px){
+	.main .banner .banner_view .banner_view_bg .desktop{ height:762px!important;}
+}
