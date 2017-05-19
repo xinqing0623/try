@@ -6,7 +6,7 @@
 	.menu_button_click{ background-position:right!important;}
 	.header .bar .menu_button{ display:block!important;}
 	.header .nav1 li .nav1_a{ font-size:16px;}
-	.header .nav2{ display:none!important;}
+	.header .nav2{ display:none!important;}nnn
 	.header .nav1{ position:fixed; z-index:98; left:100%; top:0; width:90%; height:100%; -moz-transition:all .5s linear; -webkit-transition:all .5s linear; -ms-transition:all .5s linear; -o-transition:all .5s linear; transition:all .5s linear; -webkit-transition-delay:.5s; transition-delay:.5s; -webkit-box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); -moz-box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); box-shadow:inset 105px 0 35px -104px rgba(0,0,0,0.5); display:table;}
 	.header .nav1 .wrap{ display:table-cell; vertical-align:middle;}
 	.header .nav1 ul{ display:inline-block; opacity:0; -moz-transition:all .3s; -webkit-transition:all .3s; -ms-transition:all .3s; -o-transition:all .3s; transition:all .3s; -webkit-transition-delay:0s; transition-delay:0s;}
